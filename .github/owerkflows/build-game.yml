@@ -49,10 +49,10 @@ jobs:
           java -version
 
           echo "=== Haxe ==="
-          haxe --version
+          haxe version
 
           echo "=== Haxelib ==="
-          haxelib --version
+          haxelib version
 
           echo "=== Lime ==="
           haxelib list | grep lime || true
